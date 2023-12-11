@@ -21,7 +21,7 @@ public class HelloController {
     public String hello() {
         List<MyTemplate> myTemplates = myTemplateService.findAll();
 
-        String message = "Hellow World<br>";
+        String message = "Hello World<br>";
         for (MyTemplate temp : myTemplates) {
             message += String.format("id: %s, name: %s<br>", temp.getId(), temp.getName());
         }
