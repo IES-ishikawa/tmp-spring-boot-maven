@@ -16,21 +16,21 @@
 1.Docker Desktop を起動します。  
 2.このリポジトリを Visual Studio Code で開きます。  
 3.画面右下の「コンテナーで再度開く」を選択します。(Dev Container 拡張機能がないと出てきません)  
-![image1](https://github.com/IES-ishikawa/assets/blob/main/tmp-spring-boot-maven/image1.png)
+![image1](https://github.com/IES-ishikawa/assets/blob/main/tmp-spring-boot-maven-postgresql/image1.png)
 
 または画面左下のリモートウィンドウを開き「コンテナーで再度開く」を選択します。  
-![image2](https://github.com/IES-ishikawa/assets/blob/main/tmp-spring-boot-maven/image2.png)  
-![image3](https://github.com/IES-ishikawa/assets/blob/main/tmp-spring-boot-maven/image3.png)
+![image2](https://github.com/IES-ishikawa/assets/blob/main/tmp-spring-boot-maven-postgresql/image2.png)  
+![image3](https://github.com/IES-ishikawa/assets/blob/main/tmp-spring-boot-maven-postgresql/image3.png)
 
 4.右下にスナックバーが表示され、Docker コンテナの構築が始まりますのでしばらく待ちます。  
-![image4](https://github.com/IES-ishikawa/assets/blob/main/tmp-spring-boot-maven/image4.png)
+![image4](https://github.com/IES-ishikawa/assets/blob/main/tmp-spring-boot-maven-postgresql/image4.png)
 
 5.右下のスナックバーが消えたらコンテナの構築は完了です。  
-![image5](https://github.com/IES-ishikawa/assets/blob/main/tmp-spring-boot-maven/image5.png)
+![image5](https://github.com/IES-ishikawa/assets/blob/main/tmp-spring-boot-maven-postgresql/image5.png)
 
 6.「F5」キーを押すとポート 8080 で Spring が立ち、デバッグ出来ます。  
-![image6](https://github.com/IES-ishikawa/assets/blob/main/tmp-spring-boot-maven/image6.png)  
-![image7](https://github.com/IES-ishikawa/assets/blob/main/tmp-spring-boot-maven/image7.png)
+![image6](https://github.com/IES-ishikawa/assets/blob/main/tmp-spring-boot-maven-postgresql/image6.png)  
+![image7](https://github.com/IES-ishikawa/assets/blob/main/tmp-spring-boot-maven-postgresql/image7.png)
 
 7.開発コンテナー名を変える場合は[devcontainer.json](.devcontainer/devcontainer.json) 2 行目の"name"の値を変えてください。
 
@@ -44,4 +44,4 @@
 
 ## 注意点
 
-- [このリポジトリ](https://github.com/IES-ishikawa/tmp-spring-boot-maven.git)にはプッシュしないでください
+- [このリポジトリ](https://github.com/IES-ishikawa/tmp-spring-boot-maven-postgresql.git)にはプッシュしないでください
